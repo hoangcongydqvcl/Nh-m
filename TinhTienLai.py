@@ -9,4 +9,4 @@ def tinh_lai_kep(A, r, n, thang_can_tinh):
             lai_tai_thang = A * (1 + a / n)**(thang / n) - A
             return lai_tai_thang
 SoTien=tinh_lai_kep(A, r,n, thang_can_tinh)
-print(f"Số tiền lãi tại tháng {thang_can_tinh} là: {SoTien}")
+print(f"Số tiền lãi tại tháng là {thang_can_tinh} là: {SoTien}")
